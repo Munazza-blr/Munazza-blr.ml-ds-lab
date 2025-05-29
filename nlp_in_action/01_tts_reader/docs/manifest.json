@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Distraction-Free TTS Reader",
+  "version": "1.0",
+  "description": "Read aloud any text using your browser's speech synthesis. Clean, fast, and privacy-respecting.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "TTS Reader"
+  },
+  "icons": {
+    "32": "icon.png"
+  },
+  "permissions": [],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}
